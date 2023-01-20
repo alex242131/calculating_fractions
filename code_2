@@ -1,0 +1,9 @@
+function calculateFraction(numerator, denominator) {
+  if (denominator === 0) {
+    throw new Error("Cannot divide by zero");
+  }
+  return numerator / denominator;
+}
+
+console.log(calculateFraction(2, 4)); // Output: 0.5
+console.log(calculateFraction(5, 2)); // Output: 2.5
